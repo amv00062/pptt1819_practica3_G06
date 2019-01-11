@@ -21,7 +21,7 @@ public class HttpConnection implements Runnable {
     private final static String CRLF = "\r\n";
 
     Socket socket = null;
-    final String ruta = "D:\\UNIVERSIDAD\\practica3\\archivos";
+    final String ruta = "archivos";
 
     public HttpConnection(Socket s) {
         socket = s;
